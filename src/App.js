@@ -1,23 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Level4 from "./FORM_POC/Level4";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App w-50 border p-3 border-4 m-3">
+      <Level4 />
     </div>
   );
 }
