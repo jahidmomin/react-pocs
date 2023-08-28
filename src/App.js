@@ -8,11 +8,13 @@ import UseContextDemo from "./Hooks/UseContextDemo";
 import UseFetchImpl from "./Hooks/UseFetchImpl";
 import ClassLyf from "./LifeyCycle/ClassLyf";
 import ReactHooksDemo from "./LifeyCycle/ReactHooksDemo";
+import RApp from "./roting/RApp";
+import MainRouter from "./routing/MainRouter";
 
 function App() {
   return (
     <div className="App w-50 border p-3 border-4 m-3">
-      <AxiosDemo />
+      <RApp />
     </div>
   );
 }
